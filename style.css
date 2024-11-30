@@ -1,0 +1,96 @@
+/* Бастапқы стильдер */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Жалпы дене */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 0 20px;
+  text-align: center; /* Мәтінді ортаға орналастыру */
+}
+
+/* Хедер (Бас бөлім) */
+header {
+  background-color: #0044cc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Навигация */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Басты бөлім */
+main {
+  margin-top: 20px;
+}
+
+/* Сабақтың сипаттамасы */
+section {
+  max-width: 900px; /* Контейнердің максималды ені */
+  margin: 0 auto; /* Мәтінді орталау */
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* Батырмалар контейнері */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Футер (Төменгі бөлім) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
